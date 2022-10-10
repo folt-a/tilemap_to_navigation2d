@@ -35,7 +35,7 @@ Select "hole" in the generated NavigationRegion2D navpoly's polygon.
 
 ## Setting 3
 
-![image](https://user-images.githubusercontent.com/32963227/194798601-a5a91dd0-64da-4700-85be-0f4ded563e5c.png)
+![image](https://user-images.githubusercontent.com/32963227/194800005-0cebab63-6ac2-4860-b2a4-cb433997b633.png)
 
 If there is already a node named "NavigationRegion2D", choose whether to overwrite it or add a new node without deleting it.
 

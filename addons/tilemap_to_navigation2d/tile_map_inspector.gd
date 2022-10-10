@@ -226,10 +226,10 @@ func make_outline_collision_hole() -> void:
 	var gap_pixel = gap_edit.get_line_edit().text.to_int()
 
 	var navpoly_pgon = PackedVector2Array()
-	navpoly_pgon.append(Vector2(left_x - gap_pixel - 1,top_y - gap_pixel - 1))
-	navpoly_pgon.append(Vector2(right_x + gap_pixel + 1, top_y - gap_pixel - 1))
-	navpoly_pgon.append(Vector2(right_x + gap_pixel + 1,bottom_y + gap_pixel + 1))
-	navpoly_pgon.append(Vector2(left_x - gap_pixel - 1,bottom_y + gap_pixel + 1))
+	navpoly_pgon.append(Vector2(left_x - gap_pixel - 2,top_y - gap_pixel - 2))
+	navpoly_pgon.append(Vector2(right_x + gap_pixel + 2, top_y - gap_pixel - 2))
+	navpoly_pgon.append(Vector2(right_x + gap_pixel + 2,bottom_y + gap_pixel + 2))
+	navpoly_pgon.append(Vector2(left_x - gap_pixel - 2,bottom_y + gap_pixel + 2))
 
 #	navpoly.add_outline(navpoly_pgon)
 #	navpoly.make_polygons_from_outlines()

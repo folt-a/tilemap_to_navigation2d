@@ -127,7 +127,7 @@ func _init(tilemap:TileMap):
 		option_button_all.add_item("All TileMap at this Scene.",OPTION_TILEMAP_ALL)
 		option_button_coli.add_item("All Tile.",OPTION_TILE_ALLTILE)
 		option_button_coli.add_item("Collision Tile.",OPTION_TILE_COLLISION)
-		option_button_nav_node.add_item("Override Navigation2D Node or Create new",OPTION_OVERRIDE_NAV)
+		option_button_nav_node.add_item("Overwrite Navigation2D Node or Create new",OPTION_OVERRIDE_NAV)
 		option_button_nav_node.add_item("Create new Navigation2D Node",OPTION_NEW_CREATE_NAV)
 		button_this_tile_only.text = "[Create Navigation2D] Execute"
 		gap_label.text = "gap pixel"

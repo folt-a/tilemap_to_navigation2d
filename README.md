@@ -2,6 +2,8 @@
 
 version：Godot 4.0 beta 2 Addon.
 
+OS: Windows, Linux
+
 Create a Navigation2DRegion from the tiles painted on the TileMap node on the scene.
 
 Godotのアドオンです。

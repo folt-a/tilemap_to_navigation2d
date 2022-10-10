@@ -10,6 +10,10 @@ Godotのアドオンです。
 
 シーン上のTileMapノードに塗ったタイルから、Navigation2DRegionを作成します。
 
+https://user-images.githubusercontent.com/32963227/194800891-60e32d8e-b840-44d6-b639-394f61df25aa.mp4
+
+This movie is 3.5 but same
+
 ---
 
 ## English
